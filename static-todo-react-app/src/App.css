@@ -1,0 +1,34 @@
+/* Add basic styles to make the app visually appealing:
+○ Center the content.
+○ Style the list items with custom bullet points or spacing.
+○ Add padding and margins to create a clean layout. */
+
+
+h1, li{
+  text-align: center;
+  
+}
+
+ul{
+  list-style-position: inside;
+  text-align: left;
+}
+
+div{
+  align-items: center;
+  margin-left: 50px;
+}
+
+header{
+  background-color: tomato;
+
+}
+
+li::marker{
+  content: '\2605';
+}
+
+main{
+  margin-top: 50px;
+
+}
